@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    background-color: antiquewhite;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    color: rebeccapurple;
+}
+
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 500px;
+    /* Para ver as bordas do formulário */
+    padding: 30px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    background-color: #add;
+}
+
+/*input{
+    margin: 0 10px;
+}*/
+.linha{
+    display: flex;
+}
+
+.espaco{
+    padding-left: 30px;
+}
+
+label {
+    display: block;
+    padding-bottom: 10px;
+    font-size: 1rem;
+}
+  
+input {
+    display: block;
+    padding: .30rem .5rem;
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.input_grande{
+    width: 95%;
+}
+
+#limpar{
+    margin-left: 30px;
+}
